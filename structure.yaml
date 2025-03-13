@@ -1,0 +1,41 @@
+oval_results (root)
+ generator: {}
+ directives: {}
+ oval_definitions:
+   generator: {}
+   definitions:
+     - definition
+     - definition
+     - ...
+   tests:
+     - test
+     - test
+     - ...
+   objects:
+     - object
+     - object
+   states:
+     - state
+     - state
+ results:
+   system:
+     definitions:
+       - definition
+       - definition
+       - ...
+     tests:
+       - test:
+           tested_item: nnn
+       - test
+       - ...
+     oval_system_characteristics:
+       generator:
+       system_info:
+       collected_objects:
+         - object
+         - object
+         - ...
+       system_data:
+         - xxx_item:
+             id:
+             more_stuff:
